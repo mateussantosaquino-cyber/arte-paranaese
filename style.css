@@ -6,8 +6,9 @@ root{
     --cor-hover: #4ae083;
     --cor-superficie: #eee9a9;
     --cor-card: #544ae0 ;
+    --cor-lengenda: #4ac9e0;
     --cor-clara: #f4f7f8;
-    --rodape: #020202;
+    --cor-rodape: #020202;
 }
 
 body {
@@ -18,8 +19,8 @@ body {
 }
 
 header {
-    background-color: #535353;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -42,9 +43,9 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #91dae7;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -52,16 +53,16 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #acacac;
+    background-color: var(--cor-hover);
 }
-
+ 
 main {
     width: 80%;
     margin: auto;
 }
 
 section {
-    background-color: white;
+    background-color: var(--cor-superficie);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -78,7 +79,7 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555555;
+    color: var(--cor-lengenda);
     margin-top: 8px;
 }
 
@@ -95,19 +96,19 @@ figcaption {
 }
 
 footer {
-    background-color: #000000;
-    color: rgb(170, 166, 166);
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
 }
 button {
-    background-color: crimson;
-color: black;
-border-color:none;
-padding: 10px 15px;
-border-radius: 8px;
-cursor: pointer;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
+    border:none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 
