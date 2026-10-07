@@ -1,6 +1,13 @@
 root{
-    --cor-fundo: #f3e2ba;
-    --cor-texto: ;
+    --cor-fundo: #4a7ae0;
+    --cor-texto: #0c0e0e;
+    --cor-principal: #4ac9e0;
+    --cor-secundaria: #66f5d1;
+    --cor-hover: #4ae083;
+    --cor-superficie: #eee9a9;
+    --cor-card: #544ae0 ;
+    --cor-clara: #f4f7f8;
+    --rodape: #020202;
 }
 
 body {
