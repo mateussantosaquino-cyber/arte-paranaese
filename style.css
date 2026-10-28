@@ -10,6 +10,14 @@
     --cor-clara: #50707a;
     --cor-rodape: #020202;
 }
+.tema-ecuro{
+     --cor-fundo: #121212;
+     --cor-texto:  #f5f5f5;
+     --cor-principal:  #8d2424;
+     --cor-superficie:  #1e1e1e;
+     --cor-card:  #2b2530;
+      
+}
 
 body {
     background-color: var(--cor-fundo);
@@ -134,4 +142,13 @@ button:hover {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.btn-tema{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: 22px;
 }
