@@ -1,11 +1,11 @@
-root{
+:root {
     --cor-fundo: #4a7ae0;
     --cor-texto: #0c0e0e;
     --cor-principal: #4ac9e0;
     --cor-secundaria: #66f5d1;
     --cor-hover: #4ae083;
     --cor-superficie: #eee9a9;
-    --cor-card: #544ae0 ;
+    --cor-card: #544ae0;
     --cor-lengenda: #a0dfeb;
     --cor-clara: #50707a;
     --cor-rodape: #020202;
@@ -89,7 +89,7 @@ figcaption {
     margin: 15px 0;
     border-left: 6px solid var(--cor-principal);
     border-radius: 10px;
-    flex: 1 1 300px
+    flex: 1 1 300px;
 }
 
 .card h3 {
@@ -103,25 +103,24 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
 button {
     background-color: var(--cor-principal);
     color: var(--cor-clara);
-    border:none;
+    border: none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
 }
 
-
 button:hover {
-     background-color: deeppink;
+    background-color: deeppink;
 }
 
-.curtir{
+.curtir {
     display: block;
     width: fit-content;
     margin: 20px auto;
-
 }
 
 .galeria {
@@ -131,8 +130,8 @@ button:hover {
     justify-content: center;
 }
 
-.cards-curiosidades {
- display: flex;
+.cards-curiosidade {
+    display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
