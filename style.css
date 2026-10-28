@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: #b8fdff;
+    color: var(--cor-principal);
 }
 
 p {
@@ -114,7 +114,7 @@ button {
 }
 
 button:hover {
-    background-color: deeppink;
+    background-color: var(--cor-hover);
 }
 
 .curtir {
